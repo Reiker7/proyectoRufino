@@ -37,31 +37,33 @@
     <main >
         
         <div id="formulario">
-            <div><img src="imagenes/load1.webp" alt="cargando" style="float:right" width="730px" id="img2"></div>
-            <form action="" class="form" >
+            <div><img src="imagenes/load1.webp" alt="cargando" style="float:right" width="730" id="img2"></div>
+            <form  class="form">
     
                     <fieldset>
                         <legend>Información Personal</legend>
-                        Nombre: <input name='nombre' type='text' tabindex='1' autofocus>
-                        Apellidos: <input name='apellidos' type='text' tabindex='2'>
+                        Nombre: <input name="nombre" type='text' tabindex='1' autofocus>
+                        Apellidos: <input name="apellidos" type='text' tabindex='2'>
                         <br><br>
                         Edad: <input type="number" id="edad" min="65" max="100" tabindex='3'>
-                        Sexo<input type="radio" value="male" id="sexo">m<input type="radio" value="female"  id="sexo">f<br><br>
+                        Sexo: <input type="radio" value="male">m<input type="radio" value="female"  >f<br><br>
                         Direccion: <input name='direccion' type='text' tabindex='4'><br><br>
-                        Código Postal: <input name='codigo' type='text' tabindex='5'>
+                        Código Postal: <input name='codigo' type="number" tabindex='5'>
                         <br><br>
                         Localidad: <input name='localidad' type='text' tabindex='6'>
                         <br><br>
-                        Ciudad: <input name='ciudad' type='text' tabindex='7'>
+                        Ciudad: <input name="ciudad" type='text' tabindex='7'>
                         <br><br>
-                        Teléfono<input type="tel" tabindex='8'>
+                        Teléfono<input name="telefono" type="tel" tabindex='8'>
                         <br><br>
                         <input type="email" placeholder="correo@ejemplo.com" tabindex='9'>
                     </fieldset>
+
                     <fieldset>
                         <legend>Escribe algo sobre tí</legend>
-                        <textarea tabindex="10" name="" id="sobreti" cols="60" rows="5"></textarea>
+                        <textarea tabindex="10" name="sobreti"  cols="60" rows="5"></textarea>
                     </fieldset>
+                    
                     <fieldset>
                         <input tabindex="11" id="borrar" type="reset" value="Reset">
                         <input tabindex="12" id="enviar" type="submit" value="Enviar"> 
